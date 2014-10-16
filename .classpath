@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/test/resources" output="target/test-classes" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="." including="plugin.xml" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+  <classpathentry kind="lib" path="xercesImpl-2.7.1.jar"/>
+  <classpathentry kind="lib" path="jena-arq-2.10.0.jar" sourcepath="/home/kremep1/.m2/repository/org/apache/jena/jena-arq/2.10.0/jena-arq-2.10.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/home/kremep1/.m2/repository/org/apache/jena/jena-arq/2.10.0/jena-arq-2.10.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="lib" path="jena-core-2.10.0.jar" sourcepath="/home/kremep1/.m2/repository/org/apache/jena/jena-core/2.10.0/jena-core-2.10.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/home/kremep1/.m2/repository/org/apache/jena/jena-core/2.10.0/jena-core-2.10.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="lib" path="jena-iri-0.9.5.jar" sourcepath="/home/kremep1/.m2/repository/org/apache/jena/jena-iri/0.9.5/jena-iri-0.9.5-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/home/kremep1/.m2/repository/org/apache/jena/jena-iri/0.9.5/jena-iri-0.9.5-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="lib" path="httpclient-4.2.3.jar" sourcepath="/home/kremep1/.m2/repository/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3-sources.jar"/>
+  <classpathentry kind="lib" path="httpcore-4.2.2.jar" sourcepath="/home/kremep1/.m2/repository/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2-sources.jar"/>
+  <classpathentry kind="lib" path="aterm-1.6.jar"/>
+  <classpathentry kind="lib" path="jgrapht-jdk1.5-0.7.3.jar" sourcepath="/home/kremep1/.m2/repository/org/jgrapht/jgrapht-jdk1.5/0.7.3/jgrapht-jdk1.5-0.7.3-sources.jar"/>
+  <classpathentry kind="lib" path="antlr-runtime-3.2.jar" sourcepath="/home/kremep1/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2-sources.jar"/>
+  <classpathentry kind="lib" path="stringtemplate-3.2.jar"/>
+  <classpathentry kind="lib" path="antlr-2.7.7.jar"/>
+  <classpathentry kind="lib" path="pellet-datatypes-2.3.1.jar" sourcepath="/home/kremep1/.m2/repository/org/mindswap/pellet/pellet-datatypes/2.3.1/pellet-datatypes-2.3.1-sources.jar"/>
+  <classpathentry kind="lib" path="pellet-el-2.3.1.jar" sourcepath="/home/kremep1/.m2/repository/org/mindswap/pellet/pellet-el/2.3.1/pellet-el-2.3.1-sources.jar"/>
+  <classpathentry kind="lib" path="pellet-rules-2.3.1.jar" sourcepath="/home/kremep1/.m2/repository/org/mindswap/pellet/pellet-rules/2.3.1/pellet-rules-2.3.1-sources.jar"/>
+  <classpathentry kind="lib" path="pellet-query-2.3.1.jar" sourcepath="/home/kremep1/.m2/repository/org/mindswap/pellet/pellet-query/2.3.1/pellet-query-2.3.1-sources.jar"/>
+  <classpathentry kind="lib" path="pellet-jena-2.3.1.jar" sourcepath="/home/kremep1/.m2/repository/org/mindswap/pellet/pellet-jena/2.3.1/pellet-jena-2.3.1-sources.jar"/>
+  <classpathentry kind="lib" path="pellet-owlapiv3-2.3.1.jar" sourcepath="/home/kremep1/.m2/repository/org/mindswap/pellet/pellet-owlapiv3/2.3.1/pellet-owlapiv3-2.3.1-sources.jar"/>
+  <classpathentry kind="lib" path="pellet-core-2.3.1.jar" sourcepath="/home/kremep1/.m2/repository/org/mindswap/pellet/pellet-core/2.3.1/pellet-core-2.3.1-sources.jar"/>
+  <classpathentry kind="lib" path="rsyntaxtextarea-2.5.0.jar" sourcepath="/home/kremep1/.m2/repository/com/fifesoft/rsyntaxtextarea/2.5.0/rsyntaxtextarea-2.5.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/home/kremep1/.m2/repository/com/fifesoft/rsyntaxtextarea/2.5.0/rsyntaxtextarea-2.5.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+</classpath>
