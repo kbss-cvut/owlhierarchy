@@ -12,6 +12,7 @@ import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.SwingUtilities;
 import javax.swing.event.ChangeListener;
 
 import org.protege.editor.core.ui.view.ViewComponent;
@@ -38,19 +39,24 @@ import org.semanticweb.owlapi.model.OWLOntologyChange;
 public class TaxonomyCategorizationView extends
 		AbstractActiveOntologyViewComponent {
 	private static final long serialVersionUID = 1L;
-//	private JButton button;
+	private JButton button;
 	private ToldOWLClassHierarchyViewComponent viewx;
 
 	protected void initialiseOntologyView() throws Exception {
-//		button = new JButton("reload");
-//		button.addActionListener(new ActionListener() {
-//
-//			@Override
-//			public void actionPerformed(ActionEvent e) {
-//				initComponents();
-//
-//			}
-//		});
+		button = new JButton("reload");
+		button.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				SwingUtilities.invokeLater(new Runnable() {
+					public void run() {					
+						initComponents();
+						invalidate();
+					}
+				});
+
+			}
+		});
 		initComponents();
 	}
 
@@ -73,15 +79,31 @@ public class TaxonomyCategorizationView extends
 					@Override
 					public void performExtraInitialisation() throws Exception {
 						super.performExtraInitialisation();
-						addAction(getAnnotationAction("Location","class.add.sub.png", getTree())
+						addAction(getAnnotationAction("Location",null, getTree())
 								, "L", "L");
-						addAction(getAnnotationAction("Activity","class.add.sub.png", getTree())
+						addAction(getAnnotationAction("Activity",null, getTree())
 								, "L", "L");
-						addAction(getAnnotationAction("Problem","class.add.sub.png", getTree())
+						addAction(getAnnotationAction("Problem",null, getTree())
 								, "L", "L");
+						addAction(getAnnotationAction("Service",null, getTree())
+								, "L", "L");
+						addAction(getAnnotationAction("Responsibility",null, getTree())
+								, "L", "L");
+						addAction(getAnnotationAction("FlightPhase",null, getTree())
+								, "L", "L");
+						addAction(getAnnotationAction("RegulationBreak",null, getTree())
+								, "L", "L");
+						addAction(getAnnotationAction("ToRevise",null, getTree())
+								, "L", "L");
+						addAction(getAnnotationAction("Agent",null, getTree())
+								, "L", "L");
+						addAction(getAnnotationAction("ProblemDangerManifestation",null, getTree())
+								, "L", "L");
+						addAction(getAnnotationAction("ProblemReaction",null, getTree())
+								, "L", "L");						
 					}
 				};
-				viewx.setup(this);
+				viewx.setup(this);				
 				return viewx;
 			}
 
@@ -155,7 +177,7 @@ public class TaxonomyCategorizationView extends
 
 		view.setBorder(BorderFactory.createEtchedBorder());
 		pnlMain.add(view, BorderLayout.CENTER);
-//		pnlMain.add(button, BorderLayout.SOUTH);
+		pnlMain.add(button, BorderLayout.SOUTH);
 		this.setLayout(new BorderLayout());
 		this.add(pnlMain, BorderLayout.CENTER);
 	}
