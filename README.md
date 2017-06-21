@@ -1,8 +1,7 @@
-Taxonomy Categorizer
-====================
+OWL Hierarchy
+=============
 
-A Protege 4 plugin for efficient classification of taxonomies.
-Currently only OWL class taxonomies are supported.
+A Protege 4 plugin for efficient visualization of taxonomies of individuals based on an object property.
 
 Protege plugin
 --------------------------
