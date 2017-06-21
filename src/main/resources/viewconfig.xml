@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+   <VSNode splits="0.3 0.7">
+         <CNode>
+            <Component label="Object property hierarchy">
+               <Property id="pluginId" value="org.protege.editor.owl.OWLObjectPropertyTree"/>
+            </Component>
+         </CNode>
+      <CNode>
+         <Component label="Individual Hierarchy">
+            <Property id="pluginId" value="cz.cvut.kbss.hierarchy.IndividualHierarchyViewComponent"/>
+         </Component>
+      </CNode>
+   </VSNode>
+</layout>

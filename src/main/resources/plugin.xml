@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin>
+   <extension  id="IndividualHierarchyViewTab"
+               point="org.protege.editor.core.application.WorkspaceTab">
+      <label value="Individual Hierarchy Tab"/>
+      <class value="org.protege.editor.owl.ui.OWLWorkspaceViewsTab"/>
+      <editorKitId value="OWLEditorKit"/>
+      <index value="Q"/>
+      <defaultViewConfigFileName value="viewconfig.xml"/>
+      <protegeDefaultTab value="true"/>
+   </extension>
    <extension
-   		 id="taxcat"
+   		 id="IndividualHierarchyViewComponent"
          point="org.protege.editor.core.application.ViewComponent">
-      <label value="Taxonomy Categorizer"/>
-      <class value="cz.cvut.kbss.taxcat.view.TaxonomyCategorizationView"/>
+      <label value="Individual Hierarchy"/>
+      <class value="cz.cvut.kbss.hierarchy.view.OwlNamedIndividualHierarchyView"/>
       <headerColor value="@org.protege.ontologycolor"/>
       <category value="@org.protege.misccategory"/>
    </extension>
