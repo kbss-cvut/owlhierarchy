@@ -1,4 +1,4 @@
-package cz.cvut.kbss.hierarchy.view;
+package cz.cvut.kbss.owlhierarchy.view;
 
 import java.util.ArrayList;
 import java.util.List;

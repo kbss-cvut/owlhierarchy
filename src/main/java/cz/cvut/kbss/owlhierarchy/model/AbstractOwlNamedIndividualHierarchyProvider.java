@@ -1,6 +1,6 @@
-package cz.cvut.kbss.hierarchy.model;
+package cz.cvut.kbss.owlhierarchy.model;
 
-import cz.cvut.kbss.hierarchy.util.OwlOntologyClosureObjectPropertyAssertionAxiomsCache;
+import cz.cvut.kbss.owlhierarchy.util.OwlOntologyClosureObjectPropertyAssertionAxiomsCache;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package cz.cvut.kbss.hierarchy.model;
+package cz.cvut.kbss.owlhierarchy.model;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,7 +1,7 @@
-package cz.cvut.kbss.hierarchy.view;
+package cz.cvut.kbss.owlhierarchy.view;
 
-import cz.cvut.kbss.hierarchy.model.OwlNamedIndividualHierarchyProvider;
-import cz.cvut.kbss.hierarchy.model.OwlNamedIndividualInferredHierarchyProvider;
+import cz.cvut.kbss.owlhierarchy.model.OwlNamedIndividualHierarchyProvider;
+import cz.cvut.kbss.owlhierarchy.model.OwlNamedIndividualInferredHierarchyProvider;
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import javax.swing.BorderFactory;

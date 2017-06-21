@@ -1,4 +1,4 @@
-package cz.cvut.kbss.hierarchy.util;
+package cz.cvut.kbss.owlhierarchy.util;
 
 import java.util.Set;
 import javax.annotation.Nonnull;

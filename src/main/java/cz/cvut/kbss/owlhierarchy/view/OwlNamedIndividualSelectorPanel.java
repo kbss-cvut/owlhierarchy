@@ -1,6 +1,6 @@
-package cz.cvut.kbss.hierarchy.view;
+package cz.cvut.kbss.owlhierarchy.view;
 
-import cz.cvut.kbss.hierarchy.model.OwlNamedIndividualHierarchyProvider;
+import cz.cvut.kbss.owlhierarchy.model.OwlNamedIndividualHierarchyProvider;
 import java.awt.Color;
 import java.util.Set;
 import javax.swing.event.ChangeListener;

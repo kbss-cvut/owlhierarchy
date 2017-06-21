@@ -8,7 +8,7 @@
          </CNode>
       <CNode>
          <Component label="Individual Hierarchy">
-            <Property id="pluginId" value="cz.cvut.kbss.hierarchy.IndividualHierarchyViewComponent"/>
+            <Property id="pluginId" value="cz.cvut.kbss.owlhierarchy.IndividualHierarchyViewComponent"/>
          </Component>
       </CNode>
    </VSNode>

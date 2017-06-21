@@ -13,7 +13,7 @@
    		 id="IndividualHierarchyViewComponent"
          point="org.protege.editor.core.application.ViewComponent">
       <label value="Individual Hierarchy"/>
-      <class value="cz.cvut.kbss.hierarchy.view.OwlNamedIndividualHierarchyView"/>
+      <class value="cz.cvut.kbss.owlhierarchy.view.OwlNamedIndividualHierarchyView"/>
       <headerColor value="@org.protege.ontologycolor"/>
       <category value="@org.protege.misccategory"/>
    </extension>

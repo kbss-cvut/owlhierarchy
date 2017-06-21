@@ -1,4 +1,4 @@
-package cz.cvut.kbss.hierarchy.util;
+package cz.cvut.kbss.owlhierarchy.util;
 
 import java.io.OutputStream;
 import java.io.Serializable;
