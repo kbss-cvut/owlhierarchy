@@ -2,18 +2,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>cz.cvut.kbss</groupId>
-        <artifactId>kbss-project-parent</artifactId>
-        <version>0.0.4</version>
-    </parent>
-
     <groupId>cz.cvut.kbss</groupId>
     <artifactId>cz.cvut.kbss.owlhierarchy</artifactId>
     <name>OWL Hierarchy Protege Plugin</name>
 
     <version>0.1</version>
-    <url>http://kbss.felk.cvut.cz/</url>
+    <url>https://kbss.felk.cvut.cz/</url>
     <packaging>bundle</packaging>
 
     <properties>
@@ -24,8 +18,8 @@
 
     <repositories>
         <repository>
-            <id>krizik</id>
-            <url>http://krizik.felk.cvut.cz/m2repo</url>
+            <id>kbss</id>
+            <url>https://kbss.felk.cvut.cz/m2repo</url>
         </repository>
     </repositories>
 
@@ -73,7 +67,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
                 <configuration>
-                    <sourceDirectory>src/main/java</sourceDirectory>
+                    <sourceDirectories><sourceDirectory>src/main/java</sourceDirectory></sourceDirectories>
                     <failsOnError>false</failsOnError>
                     <failOnViolation>false</failOnViolation>
                 </configuration>
